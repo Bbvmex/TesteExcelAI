@@ -30,7 +30,7 @@ A GitHub Copilot-style AI assistant docked directly inside the **Excel VBA Edito
 ### Windows machine
 - Windows 10 / 11
 - Microsoft Excel 2016 or 365 (32-bit recommended)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) — *.NET desktop development* workload
+- [Visual Studio 2022 or 2026](https://visualstudio.microsoft.com/) — *.NET desktop development* workload
 - .NET Framework 4.8 (ships with Windows 10+)
 - PowerShell 5+
 
@@ -51,7 +51,7 @@ git clone https://github.com/Bbvmex/TesteExcelAI.git
 cd TesteExcelAI
 ```
 
-Open `TesteExcelAI.sln` in Visual Studio 2022, set the platform to **x86**, then **Build → Build Solution**.
+Open `TesteExcelAI.sln` in Visual Studio 2022 or 2026, then **Build → Build Solution** (platform is set to x86 in the project file).
 
 ### 2. Configure the LLM endpoint
 
