@@ -47,7 +47,7 @@ namespace VbeAddin
             {
                 // {9ED54F84-...} is the well-known GUID for the VBE Project Explorer window
                 Window projectExplorer = _vbe.Windows.Item("{9ED54F84-A89D-4fcd-A854-44251E925F09}");
-                _toolWindow.SetKind(vbext_WindowType.vbext_wt_LinkedWindow);
+                _toolWindow.SetKind((vbext_WindowType)12); // 12 = vbext_wt_LinkedWindow
                 projectExplorer.LinkedWindowFrame.LinkedWindows.Add(_toolWindow);
             }
             catch

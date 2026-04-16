@@ -39,7 +39,6 @@ namespace VbeAddin.UI
             this.txtQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtQuestion.Font = new System.Drawing.Font("Consolas", 9F);
             this.txtQuestion.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txtQuestion.PlaceholderText = "Ask a VBA / RPA question...";
 
             // panelButtons
             this.panelButtons.Controls.Add(this.btnSend);
