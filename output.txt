@@ -1,0 +1,16 @@
+=====================
+4/16/2026 4:20:49 PM
+Issue:
+The solution file TesteExcelAI.sln specifies a project configuration for project VbeAddin.csproj that does not exist for that project - please check the solution to find and remove the configuration that is not in the below list.
+
+Existing project configurations:
+Debug|AnyCPU
+Release|AnyCPU
+
+Resolution options:
+1. Edit the solution file TesteExcelAI.sln to change the project configuration to one of the existing configurations for this project.
+2. Use the Configuration Manager to change the project configuration reference in the solution to an existing project configuration or to create a new project configuration.
+
+Project Path: ...\src\VbeAddin\VbeAddin.csproj
+Solution Path: ...\TesteExcelAI.sln
+==================
