@@ -1,14 +1,2 @@
-Build started at 4:33 PM...
-1>------ Build started: Project: VbeAddin, Configuration: Debug Any CPU ------
-1>C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(3082,5): warning MSB3284: Cannot get the file path for type library "b65ad801-abaf-11d0-bb8b-00a0c90f2744" version 1.0. Library not registered. (Exception from HRESULT: 0x8002801D (TYPE_E_LIBNOTREGISTERED))
-1>...\src\VbeAddin\obj\Debug\net48\VbeAddin.AssemblyInfo.cs(16,12,16,58): error CS0579: Duplicate 'System.Reflection.AssemblyFileVersionAttribute' attribute
-1>...\src\VbeAddin\obj\Debug\net48\VbeAddin.AssemblyInfo.cs(19,12,19,52): error CS0579: Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute
-1>...\src\VbeAddin\obj\Debug\net48\VbeAddin.AssemblyInfo.cs(20,12,20,54): error CS0579: Duplicate 'System.Reflection.AssemblyVersionAttribute' attribute
-1>...\src\VbeAddin\AI\LlmApiClient.cs(3,18,3,22): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)
-1>...\src\VbeAddin\Connect.cs(3,7,3,20): error CS0246: The type or namespace name 'Extensibility' could not be found (are you missing a using directive or an assembly reference?)
-1>...\src\VbeAddin\Connect.cs(12,28,12,45): error CS0246: The type or namespace name 'IDTExtensibility2' could not be found (are you missing a using directive or an assembly reference?)
-1>...\src\VbeAddin\AI\LlmApiClient.cs(13,33,13,43): error CS0246: The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)
-1>...\src\VbeAddin\Connect.cs(18,54,18,69): error CS0246: The type or namespace name 'ext_ConnectMode' could not be found (are you missing a using directive or an assembly reference?)
-1>...\src\VbeAddin\Connect.cs(28,37,28,55): error CS0246: The type or namespace name 'ext_DisconnectMode' could not be found (are you missing a using directive or an assembly reference?)
-========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
-========== Build completed at 4:33 PM and took 03.002 seconds ==========
+'vbext_WindowType' does not contain a definition for 'vbext_wt_LinkedWindow'
+'RichTextBox' does not contain a definition for 'PlaceholderText' and no accessible extension method 'PlaceholderText' accepting a first argument of type 'RichTextBox' could be found (are you missing a using directive or an assembly reference?)
