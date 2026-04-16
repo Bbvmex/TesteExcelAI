@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x86</PlatformTarget>
+    <AssemblyName>VbeAddin</AssemblyName>
+    <RootNamespace>VbeAddin</RootNamespace>
+    <RegisterForCOMInterop>false</RegisterForCOMInterop>
+    <Optimize>false</Optimize>
+    <Nullable>disable</Nullable>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ThammimTech.Microsoft.Vbe.Interop" Version="15.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Microsoft Add-In Designer (Extensibility) — provides IDTExtensibility2 -->
+    <COMReference Include="Extensibility">
+      <Guid>{B65AD801-ABAF-11D0-BB8B-00A0C90F2744}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+</Project>

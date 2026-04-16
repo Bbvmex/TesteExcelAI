@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# NuGet
+packages/
+*.nupkg
+
+# Generated type libraries
+*.tlb
+
+# Config with secrets (copy from config.example.json)
+config.json
+
+# OS
+.DS_Store
+Thumbs.db

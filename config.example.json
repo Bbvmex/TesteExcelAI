@@ -1,0 +1,4 @@
+{
+  "BaseUrl": "http://localhost:1234/v1",
+  "Model": "local-model"
+}
