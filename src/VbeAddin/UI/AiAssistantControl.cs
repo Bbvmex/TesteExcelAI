@@ -8,7 +8,7 @@ namespace VbeAddin.UI
     [ComVisible(true)]
     [Guid("B2C3D4E5-F6A7-8901-BCDE-F12345678901")]
     [ProgId("VbeAddin.AiAssistantControl")]
-    [ClassInterface(ClassInterfaceType.AutoDual)]
+    [ClassInterface(ClassInterfaceType.AutoDispatch)]
     public partial class AiAssistantControl : UserControl
     {
         private LlmApiClient _client;

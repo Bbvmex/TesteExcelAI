@@ -91,6 +91,22 @@ To unregister (e.g. before a clean rebuild):
 
 ---
 
+## Patching (no full removal needed)
+
+If the add-in is already registered and you just want to apply a code fix:
+
+1. **Close Excel** (the DLL is locked while Excel is open)
+2. Pull / build the new version in Visual Studio
+3. Re-run the registration script (it overwrites the existing entries):
+   ```powershell
+   .\tools\Register-Dev.ps1
+   ```
+4. Open Excel → `Alt+F11` — the updated add-in loads automatically
+
+> You only need `Unregister-Dev.ps1` if you move or rename the DLL, or want to remove the add-in entirely.
+
+---
+
 ## Project structure
 
 ```
